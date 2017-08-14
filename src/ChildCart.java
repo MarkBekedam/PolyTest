@@ -23,7 +23,7 @@ public class ChildCart extends Economy {
 			cCartColor = "Home";
 		else if(ec.equalsIgnoreCase("white"))
 			cCartColor = "Day";
-		else if(ec.equalsIgnoreCase("blacl"))
+		else if(ec.equalsIgnoreCase("black"))
 			cCartColor = "Night";
 		else
 			cCartColor = "Day";
