@@ -15,15 +15,15 @@ public class Wagon extends FourDoor {
 		rearDoorStatus = rds;
 	}
 	
-	public boolean getRearDoorStatus() {
+	public final boolean getRearDoorStatus() {
 		return rearDoorStatus;
 	}
 	
-	public void setRearDoorWiperSpeed(int rws) {
+	public final void setRearDoorWiperSpeed(int rws) {
 		rearDoorWiperSpeed = rws;
 	}
 	
-	public int getRearDoorWiperSpeed() {
+	public final int getRearDoorWiperSpeed() {
 		return rearDoorWiperSpeed;
 	}
 }

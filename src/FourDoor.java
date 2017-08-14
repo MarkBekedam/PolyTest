@@ -7,8 +7,8 @@ public class FourDoor extends Car {
 		super();
 	}
 	
-	public FourDoor(String uid) {
-		super(uid);
+	public FourDoor(String ufdid) {
+		super(ufdid);
 	}
 	
 	public void setLeftBackPassengerDoorStatus(boolean lbpds) {
