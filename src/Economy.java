@@ -1,5 +1,5 @@
 
-public class Economy extends Car {
+public abstract class Economy extends Car {
 
 	private boolean rearDoorStatus;
 	

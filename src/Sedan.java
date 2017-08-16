@@ -11,6 +11,13 @@ public class Sedan extends FourDoor {
 		super(uid);
 	}
 	
+	public void setExtColor(String ec) {
+	}
+	
+	public String getExtColor( ) {
+		return new String();
+	}
+	
 	public void setTrunkDoorStatus(boolean tds) {
 		trunkDoorStatus = tds;
 	}

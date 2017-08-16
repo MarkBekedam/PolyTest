@@ -11,6 +11,12 @@ public class Wagon extends FourDoor {
 		super(uid);
 	}
 	
+	public void setExtColor(String ec) {
+	}
+	
+	public String getExtColor() {
+		return new String();
+	}
 	public void setRearDoorStatus(boolean rds) {
 		rearDoorStatus = rds;
 	}

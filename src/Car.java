@@ -1,5 +1,5 @@
 
-public class Car {
+public abstract class Car {
 
 	private String exteriorColor;
 	private float levelOfFuel;
@@ -19,6 +19,13 @@ public class Car {
 		uniqueID = uid;
 	}
 	
+	public abstract void setExtColor(String ec);
+		// exteriorColor = ec;
+	
+	public abstract String getExtColor();
+		// return exteriorColor;
+	
+	
 	public String getUID() {
 		return uniqueID;
 	}
@@ -26,14 +33,7 @@ public class Car {
 	public void setUID(String uid) {
 		uniqueID = uid;
 	}
-	
-	public void setExtColor(String ec) {
-		exteriorColor = ec;
-	}
-	
-	public String getExtColor() {
-		return exteriorColor;
-	}
+
 	
 	public void setLevelOfFuel(float fl) {
 		levelOfFuel = fl;

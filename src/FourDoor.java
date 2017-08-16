@@ -1,4 +1,4 @@
-public class FourDoor extends Car {
+public abstract class FourDoor extends Car {
 
 	private boolean leftBackPassengerDoorStatus;
 	private boolean rightBackPassengerDoorStatus;
